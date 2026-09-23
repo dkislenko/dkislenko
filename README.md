@@ -53,45 +53,73 @@ I focus on building AI assistants, RAG systems, LLM applications, and Python bac
 
 ### 🔎 Safe RAG Support Assistant
 
-RAG assistant for SaaS technical support with semantic retrieval, source attribution, safety guardrails, and hallucination checks.
+RAG-ассистент для технической поддержки SaaS-продукта с семантическим поиском, контролем источников и защитой от небезопасных запросов.
 
 **Stack:** Python, LangChain, FAISS, Sentence Transformers, Hugging Face Transformers, Qwen2.5, FastAPI, Pydantic
 
-Key features:
+Основные возможности:
 
-- semantic search with FAISS;
+- semantic search через FAISS;
 - multilingual embeddings;
-- query rewriting and MMR retrieval;
-- local LLM generation;
+- локальная LLM;
 - source attribution;
 - safety guardrails;
 - groundedness checks;
-- extractive fallback for unsafe or low-quality generations;
+- fallback на extractive response;
 - RAG tracing;
-- REST API with FastAPI.
+- REST API на FastAPI.
 
-[View repository →](https://github.com/dkislenko/safe-rag-support-assistant)
+[Открыть репозиторий →](https://github.com/dkislenko/safe-rag-support-assistant)
+
+---
+
+### 🧠 Russian Headline Fine-Tuning
+
+Экспериментальный NLP-проект по fine-tuning и сравнению **RuGPT3Small** и **ruT5-small** для генерации заголовков русскоязычных новостей.
+
+**Stack:** Python, PyTorch, Hugging Face Transformers, Datasets, Sentence Transformers, SentencePiece, ROUGE
+
+В проекте реализованы:
+
+- baseline evaluation до обучения;
+- fine-tuning Causal LM и Seq2Seq моделей;
+- контролируемое сравнение на одинаковом количестве данных;
+- ROUGE-1 / ROUGE-2 / ROUGE-L;
+- semantic similarity;
+- анализ длины генераций;
+- анализ галлюцинаций;
+- сравнение экспериментов на 300 и 1000 training samples.
+
+Контрольный эксперимент на 300 примерах:
+
+| Model | ROUGE-1 | ROUGE-L | Semantic similarity |
+|---|---:|---:|---:|
+| RuGPT3Small fine-tuned | 0.0753 | 0.0731 | 0.4382 |
+| ruT5-small fine-tuned | **0.1384** | **0.1329** | **0.4809** |
+
+[Открыть репозиторий →](https://github.com/dkislenko/russian-headline-finetuning)
 
 ---
 
 ### 🧬 VAE Anomaly Detection
 
-One-class anomaly detection on Fashion-MNIST using a convolutional Variational Autoencoder and reconstruction error.
+One-class anomaly detection на Fashion-MNIST с использованием сверточного Variational Autoencoder и reconstruction error.
 
 **Stack:** Python, PyTorch, torchvision, scikit-learn, NumPy, Pandas, Matplotlib
 
-Key features:
+Основные части проекта:
 
 - convolutional VAE;
-- one-class training on `T-shirt/top`;
-- reconstruction error based anomaly detection;
-- validation-based threshold selection;
+- one-class training;
+- reconstruction error;
+- validation-based anomaly threshold;
 - ROC / Precision-Recall analysis;
-- confusion matrix and error analysis;
+- confusion matrix;
 - latent space visualization;
-- reconstruction analysis and latent interpolation.
+- reconstruction analysis;
+- latent interpolation.
 
-### Results
+Результаты:
 
 | Metric | Score |
 |---|---:|
@@ -101,7 +129,7 @@ Key features:
 | Recall | **0.5368** |
 | F1 | **0.6959** |
 
-[View repository →](https://github.com/dkislenko/vae-anomaly-detection)
+[Открыть репозиторий →](https://github.com/dkislenko/vae-anomaly-detection)
 
 ---
 
