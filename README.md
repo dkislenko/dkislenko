@@ -4,6 +4,8 @@
 
 I focus on building AI assistants, RAG systems, LLM applications, and Python backend services.
 
+---
+
 ## 🧠 AI / LLM
 
 - RAG pipelines
@@ -11,9 +13,9 @@ I focus on building AI assistants, RAG systems, LLM applications, and Python bac
 - FAISS
 - Sentence Transformers
 - Hugging Face Transformers
-- Prompt Engineering
 - Embeddings & Semantic Search
-- Guardrails & hallucination mitigation
+- Prompt Engineering
+- Guardrails & Hallucination Mitigation
 
 ## 🐍 Python / Backend
 
@@ -33,8 +35,10 @@ I focus on building AI assistants, RAG systems, LLM applications, and Python bac
 - XGBoost
 - Pandas
 - NumPy
+- Variational Autoencoders
+- Anomaly Detection
 
-## 🛠 Engineering
+## 🛠 Tools & Engineering
 
 - Git / GitHub
 - Docker
@@ -42,43 +46,79 @@ I focus on building AI assistants, RAG systems, LLM applications, and Python bac
 - Bash / PowerShell
 - API debugging
 - Log analysis
-- Production incident investigation
 
 ---
 
-## 🚀 Current focus
+## 🚀 Featured Projects
 
-I am currently developing portfolio projects in:
+### 🔎 Safe RAG Support Assistant
+
+RAG assistant for SaaS technical support with semantic retrieval, source attribution, safety guardrails, and hallucination checks.
+
+**Stack:** Python, LangChain, FAISS, Sentence Transformers, Hugging Face Transformers, Qwen2.5, FastAPI, Pydantic
+
+Key features:
+
+- semantic search with FAISS;
+- multilingual embeddings;
+- query rewriting and MMR retrieval;
+- local LLM generation;
+- source attribution;
+- safety guardrails;
+- groundedness checks;
+- extractive fallback for unsafe or low-quality generations;
+- RAG tracing;
+- REST API with FastAPI.
+
+[View repository →](https://github.com/dkislenko/safe-rag-support-assistant)
+
+---
+
+### 🧬 VAE Anomaly Detection
+
+One-class anomaly detection on Fashion-MNIST using a convolutional Variational Autoencoder and reconstruction error.
+
+**Stack:** Python, PyTorch, torchvision, scikit-learn, NumPy, Pandas, Matplotlib
+
+Key features:
+
+- convolutional VAE;
+- one-class training on `T-shirt/top`;
+- reconstruction error based anomaly detection;
+- validation-based threshold selection;
+- ROC / Precision-Recall analysis;
+- confusion matrix and error analysis;
+- latent space visualization;
+- reconstruction analysis and latent interpolation.
+
+### Results
+
+| Metric | Score |
+|---|---:|
+| ROC-AUC | **0.8844** |
+| PR-AUC | **0.9840** |
+| Precision | **0.9889** |
+| Recall | **0.5368** |
+| F1 | **0.6959** |
+
+[View repository →](https://github.com/dkislenko/vae-anomaly-detection)
+
+---
+
+## 🎯 Current Focus
+
+Currently exploring and building projects around:
 
 - LLM / RAG applications
 - AI assistants
 - Retrieval and semantic search
 - LLM safety and grounded generation
 - Python API services
-- ML / anomaly detection
-
----
-
-## 📌 Featured project
-
-### Safe RAG Support Assistant
-
-RAG assistant for SaaS technical support with:
-
-- semantic retrieval using FAISS;
-- multilingual Sentence Transformers embeddings;
-- local Hugging Face LLM;
-- source attribution;
-- safety guardrails;
-- hallucination checks;
-- RAG tracing;
-- FastAPI REST API.
-
-[View repository](https://github.com/dkislenko/safe-rag-support-assistant)
+- Machine learning and anomaly detection
 
 ---
 
 ## 📫 Contact
 
 - Telegram: [@Kisliiiiy](https://t.me/Kisliiiiy)
-- GitHub: [dkislenko](https://github.com/dkislenko)
+- GitHub: [@dkislenko](https://github.com/dkislenko)
