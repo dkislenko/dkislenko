@@ -135,16 +135,13 @@ One-class anomaly detection на Fashion-MNIST с использованием �
 
 ## 🎯 Current Focus
 
-Currently exploring and building projects around:
-
 - LLM / RAG applications
 - AI assistants
-- Retrieval and semantic search
-- LLM safety and grounded generation
+- Retrieval & semantic search
+- LLM fine-tuning and evaluation
+- LLM safety & grounded generation
 - Python API services
-- Machine learning and anomaly detection
-
----
+- Machine Learning / Deep Learning
 
 ## 📫 Contact
 
